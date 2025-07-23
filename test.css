@@ -1,0 +1,90 @@
+  #classes{
+    background-image: url(./Images/pexels-anastasia-shuraeva-4944973.jpg);
+    background-position: center center;
+    background-size: cover;
+  }
+ /*sec2 bg home & text*/
+ .home{
+  background-image: url(./Images/bg.jpg);
+  background-position: center center;
+  background-size: cover;
+  height: 100vh;
+  text-align: center;
+  color: orangered
+ }
+ 
+ .home1{
+  background-color: rgb(0,0,0  0.3);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+ }
+
+.home2 h2::after
+{ content:"|";
+  animation-name: Issa;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+  
+
+@keyframes Issa 
+{
+  33%   {content: "Get Fit|"; color: orange; }
+  66%  {content: "Train Hard|"; color: orange; }
+  100%  {content: "Go Home|"; color: orange; }
+ 
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+h1 {
+  font-family: 'Audiowide', cursive;
+  font-size: 48px;
+  color: #ff5733;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Audiowide&display=swap');
+
+h2 {
+  font-family: 'Audiowide', cursive;
+  font-size: 48px;
+  color: #ff5733;
+  text-align: center;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+}
+
+ /*nav btn & items*/
+ .nav-link {
+  color: white !important;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color:rgb(164, 66, 66); 
+  color: rgb(0, 0, 0) !important;
+  box-shadow: 0 4px 12px rgba(6, 6, 6, 0.2); 
+}
+
+/*location btn*/
+
+<style>
+  .location-btn {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .location-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.4);
+  }
+</style>
+
+
